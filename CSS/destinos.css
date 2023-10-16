@@ -29,7 +29,7 @@ ul li:last-child {
     margin-right: 0; /* Elimina el margen derecho del último elemento para evitar espacio extra */
 }
 span{
-    color: white;
+    color: Black;
 }
 nav ul li{
 list-style-type: none;
