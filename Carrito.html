@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/destinos.css">
+    <link rel="stylesheet" href="CSS/Carrito.css">
+    <link rel="shortcut icon" href="images/logo juva.png" type="image/x-icon">
+    <script src="js/app.js" async></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+    
+        <nav>
+            
+            <div class="logojuva"></div> 
+        <img src="IMAGES/JUVA TRAVEL LOGO TRANSPARENTE.png"  alt="Logo Juva Travel" onclick="window.location.href='index.html'">
+        <style>
+            img {
+                width: 180px;
+                height: 200px;
+                margin-bottom: 2px;
+                margin-top: 10px;
+            }
+            
+            .logojuva {
+                margin-left: -40px; /* Ajusta este valor según cuánto desees mover el logo hacia la izquierda */
+                float: left;
+            }
+            
+            li {
+                margin-top: 20px;
+            }
+            
+            </style>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienessomos.html">¿Quienes Somos?</a></li>  
+                <li><a href="Carrito.html">Carrito</a></li>
+                <li><a href="experienciajuva.html">Experiencia Juva</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+            </ul>
+            <button class="boton-azul" onclick="window.location.href='login.html'">INICIO DE SESION</button>   
+        </nav>  
+    </div>
+    
+    <header style="
+    margin-bottom: 50px;
+">
+    
+    </header>
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Salento</span>
+                <img src="images/Salento + Valle del Cococa + Finlandia.jpg" alt="Salento + Valle del Cocora + Finlandia" class="img-item">
+                <span class="precio-item">$49.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+
+            </div>
+            <div class="item">
+                <span class="titulo-item">Bioparque Ukumari</span>
+                <img src="images/Bioparque Ukumari.jpg" alt="Bioparque Ukumari" class="img-item">
+                <span class="precio-item">$65.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Piscilago</span>
+                <img src="images/Pisciliago - Desierto de la Tatacoa.jpg" alt="Piscilago - Desierto de la Tatacoa" class="img-item">
+                <span class="precio-item">$259.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Nevado del Ruiz</span>
+                <img src="images/Nevado del Ruiz.jpg" alt="Nevado del Ruiz" class="img-item">
+                <span class="precio-item">$99.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Termales la Cabaña</span>
+                <img src="images/Termales la Cabaña.jpg" alt="Termales la cabaña" class="img-item">
+                <span class="precio-item">$159.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Ukumari + Consota</span>
+                <img src="images/Ukumari + Consota.jpg" alt="Ukumari + Consota" class="img-item">
+                <span class="precio-item">$79.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Eje Cafetero - Valle del Cocora</span>
+                <img src="images/Eje Cafetero- Valle del Cocora.jpg" alt="Eje Cafetero- Valle del Cocora" class="img-item">
+                <span class="precio-item">$59.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Parque del Cafe</span>
+                <img src="images/Parque del Cafe.jpg" alt="Parque del Cafe" class="img-item">
+                <span class="precio-item">$119.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Lago Calima + Buga</span>
+                <img src="images/Lago Calima + Buga.jpg" alt="Lago Calima + Buga" class="img-item">
+                <span class="precio-item">$42.800</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+   
+        
+        
+        <!-- Tu Carrito -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+    
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar<i class="fa-solid fa-bag-shopping"></i> </button>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
