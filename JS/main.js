@@ -12,7 +12,6 @@ setInterval(() => {
 }, 3000);
 
 setInterval(() => {
-    moveToleft()
 }, 3000);
 
 
