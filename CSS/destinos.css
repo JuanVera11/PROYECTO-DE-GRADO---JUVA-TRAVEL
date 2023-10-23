@@ -29,7 +29,7 @@ ul li:last-child {
     margin-right: 0; /* Elimina el margen derecho del último elemento para evitar espacio extra */
 }
 span{
-    color: Black;
+    color: white;
 }
 nav ul li{
 list-style-type: none;
@@ -37,7 +37,7 @@ display:inline-block;
 padding: 10px 20px;
 }
 nav  ul li  a{
-    color: black;
+    color: Black;
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
@@ -46,7 +46,6 @@ nav  ul li  a:hover{
     color: #05ca47;
     transition: .3s;
 }
-
 
 .boton-azul {
     border: none;
@@ -57,8 +56,8 @@ nav  ul li  a:hover{
     font-weight: bold;
     font-size: 15px;
     transition: .4s;
-    margin-left: 0px;
-    margin-top: 10px;
+    margin-right: -50px;
+    margin-bottom: 0px;
     width:220px;
 
 }

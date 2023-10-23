@@ -12,18 +12,17 @@
 <body style="display: flex; flex-direction: column; align-items: center;">
     <nav>
         <div class="logojuva"></div> 
-        <img src="IMAGES/JUVA TRAVEL LOGO TRANSPARENTE.png"  alt="Logo Juva Travel" onclick="window.location.href='index.html'">
-        <style>
-            img {
-                width: 180px;
-                height: 200px;
-                margin-bottom: 2px;
-                margin-top: 10px;
-            }
-            
+        <img src="IMAGES/JUVA TRAVEL LOGO TRANSPARENTE.png"  alt="Logo Juva Travel" class="logo" onclick="window.location.href='index.html'">
+        <style> 
             .logojuva {
-                margin-left: -40px; /* Ajusta este valor según cuánto desees mover el logo hacia la izquierda */
                 float: left;
+                margin-left: -120px; /* Ajusta este valor según cuánto desees mover el logo hacia la izquierda */
+                
+            }
+            .logo{
+                height: 200px;
+                width: 180px;
+                margin-right: 0px;
             }
             
             li {
@@ -38,6 +37,7 @@
             <li><a href="experienciajuva.html">Experiencia Juva</a></li>
             <li><a href="destinos.html">Destinos</a></li>
             <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="planes.html">Planes</a></li>
         </ul>
         <button class="boton-azul" onclick="window.location.href='login.html'">INICIO DE SESION</button>   
     </nav>  

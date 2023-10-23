@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Open Sans';
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color: white;
+    font-size: 28px;
+
+}
+
+ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento para evitar espacio extra */
+}
+span{
+    color: white;
+}
+nav ul li{
+list-style-type: none;
+display:inline-block;
+padding: 10px 20px;
+}
+nav  ul li  a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav  ul li  a:hover{
+    color: #05ca47;
+    transition: .3s;
+}
+
+
+.boton-azul {
+    border: none;
+    background: #1069D5;
+    padding: 12px 30px;
+    border-radius: 20px 20px 20px 20px; 
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width:220px;
+
+}
+
+button:hover {
+    transform: scale(1.3);
+}
+
+html {
+    background-color: white;
+}
+
+
+header {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 300px;
+    font-size: 35px;
+}
+
+header h2 {
+    color: #f0525f;
+}
+
+header span {
+    color: #eaa03f;
+}
+
+img{
+
+    height: 200px;
+    width: 180px;
+    margin-left: 0px;
+
+
+    
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+
+.logojuva{
+    float: left; 
+    margin-left: -120px;
+}
+    
+.planes h1 {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 65px;
+}
+
+.linea {
+    border-top: 5px solid black;
+    margin-bottom: 20px; /* Reduzcamos el margen inferior a 20px */
+    margin-top: -55px; /* Agreguemos un margen superior de -20px para compensar */
+}
+
+.destinosturisticos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.destinosturisticos img {
+    max-width: 100%; /* Para asegurarte de que las imágenes se ajusten al ancho del contenedor */
+ height: 400px;
+ width: 400px; /* Mantiene la proporción de aspecto original de las imágenes */
+ margin-bottom:80px;
+
+}
+
+img{
+    margin-top:30px;
+}  
+
+p{
+    margin-bottom: 40px;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%; /* Asegúrate de que el cuerpo y el html ocupen toda la altura de la ventana */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 100%; /* Asegúrate de que el contenedor ocupe toda la altura de la ventana */
+}
+
+.mySwiper {
+    width: 500px;
+    height: 500px;
+}
+
+.mySwiper img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.swiper-image {
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 100%; /* Ajusta el tamaño máximo */
+    max-height: 100%; /* Ajusta la altura máxima */
+    margin-left: 800px;
+}
+
+/* Estilos para el contenedor de la imagen y el texto */
+.image-container {
+    position: relative;
+}
+
+.image-caption {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior según tus preferencias */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+

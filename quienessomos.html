@@ -8,14 +8,10 @@
     <link rel="shortcut icon" href="images/logo juva.png" type="image/x-icon">
 </head>
 <body>
-    
     <nav>
-            
-        <div class="logojuva">
-    <img src="IMAGES/JUVA TRAVEL LOGO TRANSPARENTE.png"  alt="Logo Juva Travel" onclick="window.location.href='index.html'">
-</div>
-    
-
+        <div class="logo-container">
+    <img src="IMAGES/JUVA TRAVEL LOGO TRANSPARENTE.png" alt="Logo Juva Travel" class="logo" onclick="window.location.href='index.html'">
+        </div>
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="quienessomos.html">¿Quienes Somos?</a></li>  
@@ -23,12 +19,30 @@
             <li><a href="experienciajuva.html">Experiencia Juva</a></li>
             <li><a href="destinos.html">Destinos</a></li>
             <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="planes.html">Planes</a></li>
         </ul>
-        <button class="boton-azul" onclick="window.location.href='login.html'">INICIO DE SESION</button>  
-    </nav>  
-</div>
-    
+        
+        <button class="boton-azul" onclick="window.location.href='login.html'">INICIO DE SESION</button>
     </nav>
+
+    <style>
+        .logo-container {
+            float: left; 
+        margin-left: -120px;
+        }
+
+        .logo {
+            width: 180px;
+            height: 200px;
+            margin-left: 35px;
+            margin-bottom:20px;
+    
+        }
+    </style>
+
+    
+    
+    
 
     <header style="margin-bottom: 50px;">
         <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" effect="fade" navigation="true">
@@ -238,7 +252,23 @@
 <video width="640" height="360" controls>
 <source src="Videos/Manizales.mp4" type="video/mp4">
 </video>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<i><h1>Excursión Buga y Lago Calima</h1></i>
+<p><strong>Buga:</strong> Buga es una ciudad del departamento de Valle del Cauca, en el oeste de Colombia. Es conocida por su Basílica del Señor de los Milagros de comienzos del siglo XX, un sitio de peregrinación que alberga una imagen sagrada de Cristo que se cree que hace milagros. 
+    La atracción principal en Buga es La Basílica de Nuestro Señor de los Milagros.</p>
+<p><strong>Lago Calima:</strong> El lago Calima, como se conoce al Embalse Calima, se ha convertido en uno de los destinos turísticos más importantes del sur occidente Colombiano, gracias a su clima, paisajes y oferta turística; además, sus fuertes y constantes vientos hacen de esta región, el tercer lago en el mundo que ofrece condiciones muy favorables para el aprendizaje y la práctica de deportes como Kiteboard (Kitesurf), Windsurf, Optimist entre otros.</p>
+<br>
+<br>  
+<div class="video-container">
+<video width="640" height="360" controls>
+<source src="Videos/Excursión Buga y lago Calima.mp4" type="video/mp4">
+</video>
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>

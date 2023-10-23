@@ -57,8 +57,9 @@ nav  ul li  a:hover{
     font-weight: bold;
     font-size: 15px;
     transition: .4s;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: -50px;
+    margin-top: 10px;
     width:220px;
 
 }
