@@ -9,7 +9,7 @@
 }
 
 body{
-  background-image: url(../images/Nevadodelruiz2.jpg);
+  background-image: url(../images/imagennevadodelruiz2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -132,9 +132,40 @@ main{
   outline: none;
 }
 
+.boton-regresar {
+  position: fixed;
+  top: 10px; /* Ajusta la posición vertical según tus necesidades */
+  right: 10px; /* Ajusta la posición horizontal según tus necesidades */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+/* Estilos para el botón azul */
+.boton-azul {
+  border: none;
+  background: #1069D5;
+  padding: 12px 30px;
+  border-radius: 20px 20px 20px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-left: 0px;
+  width: 220px;
+}
+body {
+  position: relative;
+}
 
-
+#boton-regresar {
+  position: absolute;
+  top: -60px; /* Ajusta la posición vertical según tu preferencia */
+  left:10px; /* Ajusta la posición horizontal según tu preferencia */
+}
 .formulario__login{
   opacity: 1;
   display: block;
@@ -142,8 +173,6 @@ main{
 .formulario__register{
   display: none;
 }
-
-
 
 @media screen and (max-width: 850px){
 
