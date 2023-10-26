@@ -5,16 +5,44 @@
     font-family: 'Open Sans';
 }
 
-body{
-	background-image: linear-gradient(135deg,
-	#00B7D4, #DBB534,#67DB34, #161569, #5A4894,#DBDB34, #DB3734);
-	background-size: 500%;
-	animation: fanimado 10s infinite;
-
-
+body {
+    background-image: linear-gradient(300deg, 
+    #00B7D4, #DBB534, #67DB34, #161569, #5A4894, #DBDB34, #DB3734);
+    background-size: 700%; /* 7 pasos en la transición de colores */
+    animation: fanimado 42s infinite; /* 7 colores que se manejan en el linear - gradient * 6 segundos por cambio * /
+    background-position: 0%; /* Inicio de la animación con el primer color del linear-gradient */
 }
-.texto{
 
+@keyframes fanimado {
+    0% {
+        background-position: 0%;
+    }
+    14.28% {
+        background-position: 100%;
+    }
+    28.57% {
+        background-position: 200%;
+    }
+    42.85% {
+        background-position: 300%;
+    }
+    57.14% {
+        background-position: 400%;
+    }
+    71.42% {
+        background-position: 500%;
+    }
+    85.71% {
+        background-position: 600%;
+    }
+    100% {
+        background-position: 700%; /* Final de la animación con el último color */
+    }
+}
+
+
+.texto{
+    
 	color: white;
 	text-align: center;
 	margin: 10px 0;
@@ -22,18 +50,7 @@ body{
 
 }
 
-@keyframes fanimado{
-	0%{
-		background-position: 0% 50%;
 
-		}
-		50%{
-        background-position: 100% 50%;
-		}
-		100%{
-			background-position: 0% 50%;
-		}		
-	}
 
 /*Cards*/
 .container-card{
