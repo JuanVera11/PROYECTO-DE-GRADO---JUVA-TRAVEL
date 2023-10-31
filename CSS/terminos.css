@@ -35,7 +35,7 @@ display:inline-block;
 padding: 10px 20px;
 }
 nav  ul li  a{
-    color: black;
+    color: white;
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
@@ -235,7 +235,7 @@ h1{
 }
 
 .texto-blanco {
-    color: #3498DB;
+    color: #0C96F3;
 }
 #terminos-contenido p {
     margin: 20px 0; /* Espacio reducido entre los párrafos */
