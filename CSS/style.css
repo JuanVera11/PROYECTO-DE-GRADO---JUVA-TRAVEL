@@ -16,6 +16,7 @@
 body{
     position: static;
 }
+
 nav{
     display:flex;
     align-items: center;

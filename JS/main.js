@@ -1,20 +1,44 @@
-const btnLeft = document.querySelector(".btn-left"),
-      btnRight = document.querySelector(".btn-right"),
-      slider = document.querySelector("#slider"),
-      sliderSection = document.querySelectorAll(".slider-section");
+const slider = document.getElementById('slider');
+const slides = document.querySelectorAll('.slider-section');
+const btnLeft = document.querySelector('.btn-left');
+const btnRight = document.querySelector('.btn-right');
+let currentSlide = 0;
 
+function showSlide(slideIndex) {
+    if (slideIndex < 0) {
+        currentSlide = slides.length - 1;
+    } else if (slideIndex >= slides.length) {
+        currentSlide = 0;
+    }
+    slides.forEach((slide, index) => {
+        if (index === currentSlide) {
+            slide.style.display = 'block';
+        } else {
+            slide.style.display = 'none';
+        }
+    });
+}
 
-btnLeft.addEventListener("click", e => moveToLeft())
-btnRight.addEventListener("click", e => moveToRight())
+function nextSlide() {
+    currentSlide++;
+    showSlide(currentSlide);
+}
 
-setInterval(() => {
-    moveToRight()
-}, 3000);
+function prevSlide() {
+    currentSlide--;
+    showSlide(currentSlide);
+}
 
-setInterval(() => {
-}, 3000);
+btnLeft.addEventListener('click', prevSlide);
+btnRight.addEventListener('click', nextSlide);
 
+// Automatizar el carrusel cada 4 segundos
+function autoSlide() {
+    nextSlide();
+    setTimeout(autoSlide, 5000); // Cambia la imagen cada 4 segundos (4000ms)
+}
 
+autoSlide(); // Inicia la automatización al cargar la página
 
 let operacion = 0,
     counter = 0,

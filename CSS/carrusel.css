@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 105vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,3 +95,9 @@ body {
   color: #fff;
   
   }
+  .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+

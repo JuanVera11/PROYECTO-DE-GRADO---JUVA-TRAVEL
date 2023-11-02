@@ -3,13 +3,29 @@ body{
 	font-weight: 300;
 	line-height: 1.7;
 	color: #fff;
-  font-family: 'Open Sans';
 	background-color: #1f2029;
-  overflow: hidden;
-  height: 100vh;
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #12141d 100%);
+    overflow: hidden;
+    height: 100vh;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #12141d 100%);
+}
+#return-button {
+    position: absolute;
+    top: 20px; /* Ajusta la distancia desde la parte superior según tu preferencia */
+    left: 20px; /* Ajusta la distancia desde la izquierda según tu preferencia */
 }
 
+.btn-primary {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: darkblue;
+}
 a:hover {
 	text-decoration: none;
 }
@@ -64,7 +80,7 @@ display: none;
     border-radius: 50%;
     color: #fff;
     background-color: #020305;
-    font-family: 'Open Sans';
+    font-family: 'unicons';
     content: '\eb4f';
     z-index: 20;
     top: -10px;
@@ -183,11 +199,7 @@ background-color: #000000;
 color: #ffffff;
 box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
-.return button:hover{  
-  background-color: #000000;
-  color: #ffffff;
-  box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
-  }
+
 #stars {
 width: 1px;
 height: 1px;

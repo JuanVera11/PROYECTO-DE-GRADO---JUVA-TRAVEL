@@ -20,6 +20,18 @@ body {
     background-position:center;
 
 }
+.logo-container {
+    float: left; 
+margin-left: -120px;
+}
+
+.logo {
+    width: 180px;
+    height: 200px;
+    margin-left: 35px;
+    margin-bottom:20px;
+
+}
 nav{
     display:flex;
     align-items: center;
@@ -172,3 +184,9 @@ header span {
         font-size: 26px;
     }
     
+    .centered-content {
+        text-align: center; 
+        margin: 0 auto; 
+        width: 80%; 
+
+}    

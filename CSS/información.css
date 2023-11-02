@@ -19,6 +19,21 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
 }
+.logojuva {
+    float: left;
+    margin-left: -120px; /* Ajusta este valor según cuánto desees mover el logo hacia la izquierda */
+    
+}
+.logo{
+    height: 200px;
+    width: 180px;
+    margin-right: 0px;
+}
+
+li {
+    margin-top: 20px;
+}
+
 .logo{
     color: white;
     font-size: 28px;
@@ -87,4 +102,24 @@ header h2 {
 
 header span {
     color: #eaa03f;
+}
+html, body {
+    height: 105%;
+    margin: 0;
+    overflow: auto; /* Habilita la barra de desplazamiento */
+}
+
+.logojuva {
+    float: left;
+    margin-left: -120px; /* Ajusta este valor según cuánto desees mover el logo hacia la izquierda */
+    
+}
+.logo{
+    height: 200px;
+    width: 180px;
+    margin-right: 0px;
+}
+
+li {
+    margin-top: 20px;
 }
