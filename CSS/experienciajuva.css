@@ -86,3 +86,23 @@ header h2 {
 header span {
     color: #eaa03f;
 }
+img{
+
+    height: 200px;
+    width: 180px;
+    margin-left: 0px;
+
+
+    
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+
+.logojuva{
+    float: left; 
+    margin-left: -120px;
+}
+    
